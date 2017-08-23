@@ -82,7 +82,7 @@
     "prefer-const": true,
     "quotemark": [
       true,
-      "single"
+      "avoid-escape"
     ],
     "radix": true,
     "semicolon": [

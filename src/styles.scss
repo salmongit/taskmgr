@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+// @import "theming"; // 使用自定义主题
+html, body, app-root, md-sidenav-container, .site {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.site {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.fill-remaining-space {
+  // 使用flexbox填充剩余空间
+  // @angular/material 中很多控件使用flex布局
+  // 第一个 1 将等分剩余空间
+  // 第二个 1 当空间不足时，都将等比例缩小。
+  // auto 分配多余空间之前，项目占据的主轴空间
+  flex: 1 1 auto;
+}
