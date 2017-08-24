@@ -1,24 +1,26 @@
 <md-nav-list dense> <!-- dense 表示压缩列表-->
   <h3 md-subheader>项目</h3>
   <md-list-item>
+    <!-- md-list-icon 指令 如果不加这个指令 图片跑右边去-->
+    <md-icon md-list-icon svgIcon="projects"></md-icon>
     <!-- md-line 表示此标签占用一行-->
     <span md-line>项目首页</span>
     <span md-line md-subheader>查看所有项目</span>
   </md-list-item>
   <h3 md-subheader>日历</h3>
   <md-list-item>
-    <span md-line>日历首页</span>
-    <span md-line md-subheader>查看所有日历</span>
-  </md-list-item>
-  <md-list-item>
+    <md-icon md-list-icon svgIcon="month"></md-icon>
     <span md-line>月视图</span>
     <span md-line md-subheader>查看月视图日历</span>
   </md-list-item>
   <md-list-item>
+    <md-icon md-list-icon svgIcon="week"></md-icon>
     <span md-line>周视图</span>
     <span md-line md-subheader>查看周视图日历</span>
   </md-list-item>
   <md-list-item>
+    <md-icon md-list-icon [svgIcon]="today"></md-icon>
+    <md-icon [svgIcon]=""></md-icon>
     <span md-line>日视图</span>
     <span md-line md-subheader>查看日视图日历</span>
   </md-list-item>
