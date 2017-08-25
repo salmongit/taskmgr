@@ -1,5 +1,11 @@
 # Taskmgr
 
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:salmongit/taskmgr.git
+git push -u origin master
+
 angular-cli version 1.3.1  
 安装 angular/material  
 npm i --save @angular/material  
