@@ -14,7 +14,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   imports: [
-    HttpModule,  // Md-Icon 价值外部 SVG 图标的时候 需要 http依赖， 涉及到http的解析
+    HttpModule,  // Md-Icon 加载外部 SVG 图标的时候 需要 http依赖， 涉及到http的解析
     SharedModule,
     BrowserAnimationsModule
   ],
